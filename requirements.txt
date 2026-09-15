@@ -1,0 +1,38 @@
+# CSCC-PAG / RSDA requirements
+# Target: Python 3.8, PyTorch 1.10
+
+# Core deep learning
+torch>=1.10.0
+torchvision>=0.11.0
+
+# Vision Transformer backbones
+timm>=0.4.12
+
+# Classical ML (K-means prototype buffer)
+scikit-learn>=0.24.0
+scipy
+
+# Numerical / array
+numpy
+pandas
+
+# Image & patch IO
+pillow
+opencv-python
+scikit-image
+
+# Whole slide image reading
+openslide-python
+
+# Stain normalization
+staintools
+
+# Feature / data storage
+h5py
+
+# Progress & plotting
+tqdm
+matplotlib
+
+# Segmentation interface (optional, Stage 2 TransUNet)
+# einops
